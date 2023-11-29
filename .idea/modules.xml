@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CSCI-2010U-Data-Structures.iml" filepath="$PROJECT_DIR$/.idea/CSCI-2010U-Data-Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Week 1/E1_Q1/E1_Q1.iml" filepath="$PROJECT_DIR$/Practice/Week 1/E1_Q1/E1_Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Week 1/E1_Q2/E1_Q2.iml" filepath="$PROJECT_DIR$/Practice/Week 1/E1_Q2/E1_Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Week 1/Week 1.iml" filepath="$PROJECT_DIR$/Practice/Week 1/Week 1.iml" />
+    </modules>
+  </component>
+</project>

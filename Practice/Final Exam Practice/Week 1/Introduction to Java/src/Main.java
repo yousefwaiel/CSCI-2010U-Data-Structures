@@ -1,17 +1,36 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Scanner scanner = new Scanner(System.in);
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+        System.out.println("Enter due date in the format of YYYY-MM-DD : ");
+        String dueDateString = scanner.next();
+
+        LocalDate dueDate = LocalDate.parse(dueDateString);
+
+        System.out.println("Enter your return date in the format of YYYY-MM-DD : ");
+        String returnDateString = scanner.next();
+
+        LocalDate returnDate = LocalDate.parse(returnDateString);
+
+        long daysDifference = ChronoUnit.DAYS.between(dueDate,returnDate);
+
+        int fine = 0;
+
+        if (daysDifference > 0)
+        {
+            fine = 2 * (int) daysDifference;
         }
+
+
+        System.out.println("Your fine amount is = $" + fine);
+
+
+
     }
 }

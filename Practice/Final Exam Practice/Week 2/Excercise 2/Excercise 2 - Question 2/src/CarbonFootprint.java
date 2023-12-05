@@ -1,8 +1,6 @@
 public class CarbonFootprint {
 
     double getCarbonFootprint(){
-        int result = 0;
-        // Nothing here ig
-        return 0;
+        return 0.0;
     }
 }
